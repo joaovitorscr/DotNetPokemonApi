@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using pokemonApi.Data;
 using pokemonApi.Extensions;
 using pokemonApi.Services;
@@ -9,8 +10,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<AppDbContext>();
 builder.Services.AddScoped<PokemonService>();
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
 
 var app = builder.Build();
 

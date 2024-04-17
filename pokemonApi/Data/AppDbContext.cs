@@ -4,20 +4,16 @@ using pokemonApi.Models;
 
 namespace pokemonApi.Data
 {
-    public class AppDbContext : DbContext
+    public partial class AppDbContext : DbContext
     {
-        public DbSet<Pokemon> Pokemons { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlite("Data Source=Database.sqlite");
-            base.OnConfiguring(optionsBuilder);
-        }
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options);
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(GetType().Assembly);
         }
+        public DbSet<Pokemon> Pokemons { get; set; }
+        public DbSet<PokemonElement> PokemonElements { get; set; }
 
         public void SeedData()
         {
