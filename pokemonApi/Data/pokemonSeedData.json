@@ -1,0 +1,488 @@
+[
+  {
+    "Name": "Bulbasaur",
+    "PokedexId": 1,
+    "ElementalType": "Grass"
+  },
+  {
+    "Name": "Ivysaur",
+    "PokedexId": 2,
+    "ElementalType": "Grass"
+  },
+  {
+    "Name": "Venusaur",
+    "PokedexId": 3,
+    "ElementalType": "Grass"
+  },
+  {
+    "Name": "Charmander",
+    "PokedexId": 4,
+    "ElementalType": "Fire"
+  },
+  {
+    "Name": "Charmeleon",
+    "PokedexId": 5,
+    "ElementalType": "Fire"
+  },
+  {
+    "Name": "Charizard",
+    "PokedexId": 6,
+    "ElementalType": "Fire"
+  },
+  {
+    "Name": "Squirtle",
+    "PokedexId": 7,
+    "ElementalType": "Water"
+  },
+  {
+    "Name": "Wartortle",
+    "PokedexId": 8,
+    "ElementalType": "Water"
+  },
+  {
+    "Name": "Blastoise",
+    "PokedexId": 9,
+    "ElementalType": "Water"
+  },
+  {
+    "Name": "Caterpie",
+    "PokedexId": 10,
+    "ElementalType": "Bug"
+  },
+  {
+    "Name": "Metapod",
+    "PokedexId": 11,
+    "ElementalType": "Bug"
+  },
+  {
+    "Name": "Butterfree",
+    "PokedexId": 12,
+    "ElementalType": "Bug"
+  },
+  {
+    "Name": "Weedle",
+    "PokedexId": 13,
+    "ElementalType": "Bug"
+  },
+  {
+    "Name": "Kakuna",
+    "PokedexId": 14,
+    "ElementalType": "Bug"
+  },
+  {
+    "Name": "Beedrill",
+    "PokedexId": 15,
+    "ElementalType": "Bug"
+  },
+  {
+    "Name": "Pidgey",
+    "PokedexId": 16,
+    "ElementalType": "Normal"
+  },
+  {
+    "Name": "Pidgeotto",
+    "PokedexId": 17,
+    "ElementalType": "Normal"
+  },
+  {
+    "Name": "Pidgeot",
+    "PokedexId": 18,
+    "ElementalType": "Normal"
+  },
+  {
+    "Name": "Rattata",
+    "PokedexId": 19,
+    "ElementalType": "Normal"
+  },
+  {
+    "Name": "Raticate",
+    "PokedexId": 20,
+    "ElementalType": "Normal"
+  },
+  {
+    "Name": "Spearow",
+    "PokedexId": 21,
+    "ElementalType": "Normal"
+  },
+  {
+    "Name": "Fearow",
+    "PokedexId": 22,
+    "ElementalType": "Normal"
+  },
+  {
+    "Name": "Ekans",
+    "PokedexId": 23,
+    "ElementalType": "Poison"
+  },
+  {
+    "Name": "Arbok",
+    "PokedexId": 24,
+    "ElementalType": "Poison"
+  },
+  {
+    "Name": "Pikachu",
+    "PokedexId": 25,
+    "ElementalType": "Electric"
+  },
+  {
+    "Name": "Raichu",
+    "PokedexId": 26,
+    "ElementalType": "Electric"
+  },
+  {
+    "Name": "Sandshrew",
+    "PokedexId": 27,
+    "ElementalType": "Ground"
+  },
+  {
+    "Name": "Sandslash",
+    "PokedexId": 28,
+    "ElementalType": "Ground"
+  },
+  {
+    "Name": "Nidoran♀",
+    "PokedexId": 29,
+    "ElementalType": "Poison"
+  },
+  {
+    "Name": "Nidorina",
+    "PokedexId": 30,
+    "ElementalType": "Poison"
+  },
+  {
+    "Name": "Nidoqueen",
+    "PokedexId": 31,
+    "ElementalType": "Poison"
+  },
+  {
+    "Name": "Nidoran♂",
+    "PokedexId": 32,
+    "ElementalType": "Poison"
+  },
+  {
+    "Name": "Nidorino",
+    "PokedexId": 33,
+    "ElementalType": "Poison"
+  },
+  {
+    "Name": "Nidoking",
+    "PokedexId": 34,
+    "ElementalType": "Poison"
+  },
+  {
+    "Name": "Clefairy",
+    "PokedexId": 35,
+    "ElementalType": "Fairy"
+  },
+  {
+    "Name": "Clefable",
+    "PokedexId": 36,
+    "ElementalType": "Fairy"
+  },
+  {
+    "Name": "Vulpix",
+    "PokedexId": 37,
+    "ElementalType": "Fire"
+  },
+  {
+    "Name": "Ninetales",
+    "PokedexId": 38,
+    "ElementalType": "Fire"
+  },
+  {
+    "Name": "Jigglypuff",
+    "PokedexId": 39,
+    "ElementalType": "Normal"
+  },
+  {
+    "Name": "Wigglytuff",
+    "PokedexId": 40,
+    "ElementalType": "Normal"
+  },
+  {
+    "Name": "Zubat",
+    "PokedexId": 41,
+    "ElementalType": "Poison"
+  },
+  {
+    "Name": "Golbat",
+    "PokedexId": 42,
+    "ElementalType": "Poison"
+  },
+  {
+    "Name": "Oddish",
+    "PokedexId": 43,
+    "ElementalType": "Grass"
+  },
+  {
+    "Name": "Gloom",
+    "PokedexId": 44,
+    "ElementalType": "Grass"
+  },
+  {
+    "Name": "Vileplume",
+    "PokedexId": 45,
+    "ElementalType": "Grass"
+  },
+  {
+    "Name": "Paras",
+    "PokedexId": 46,
+    "ElementalType": "Bug"
+  },
+  {
+    "Name": "Parasect",
+    "PokedexId": 47,
+    "ElementalType": "Bug"
+  },
+  {
+    "Name": "Venonat",
+    "PokedexId": 48,
+    "ElementalType": "Bug"
+  },
+  {
+    "Name": "Venomoth",
+    "PokedexId": 49,
+    "ElementalType": "Bug"
+  },
+  {
+    "Name": "Diglett",
+    "PokedexId": 50,
+    "ElementalType": "Ground"
+  },
+  {
+    "Name": "Dugtrio",
+    "PokedexId": 51,
+    "ElementalType": "Ground"
+  },
+  {
+    "Name": "Meowth",
+    "PokedexId": 52,
+    "ElementalType": "Normal"
+  },
+  {
+    "Name": "Persian",
+    "PokedexId": 53,
+    "ElementalType": "Normal"
+  },
+  {
+    "Name": "Psyduck",
+    "PokedexId": 54,
+    "ElementalType": "Water"
+  },
+  {
+    "Name": "Golduck",
+    "PokedexId": 55,
+    "ElementalType": "Water"
+  },
+  {
+    "Name": "Mankey",
+    "PokedexId": 56,
+    "ElementalType": "Fighting"
+  },
+  {
+    "Name": "Primeape",
+    "PokedexId": 57,
+    "ElementalType": "Fighting"
+  },
+  {
+    "Name": "Growlithe",
+    "PokedexId": 58,
+    "ElementalType": "Fire"
+  },
+  {
+    "Name": "Arcanine",
+    "PokedexId": 59,
+    "ElementalType": "Fire"
+  },
+  {
+    "Name": "Poliwag",
+    "PokedexId": 60,
+    "ElementalType": "Water"
+  },
+  {
+    "Name": "Poliwhirl",
+    "PokedexId": 61,
+    "ElementalType": "Water"
+  },
+  {
+    "Name": "Poliwrath",
+    "PokedexId": 62,
+    "ElementalType": "Water"
+  },
+  {
+    "Name": "Abra",
+    "PokedexId": 63,
+    "ElementalType": "Psychic"
+  },
+  {
+    "Name": "Kadabra",
+    "PokedexId": 64,
+    "ElementalType": "Psychic"
+  },
+  {
+    "Name": "Alakazam",
+    "PokedexId": 65,
+    "ElementalType": "Psychic"
+  },
+  {
+    "Name": "Machop",
+    "PokedexId": 66,
+    "ElementalType": "Fighting"
+  },
+  {
+    "Name": "Machoke",
+    "PokedexId": 67,
+    "ElementalType": "Fighting"
+  },
+  {
+    "Name": "Machamp",
+    "PokedexId": 68,
+    "ElementalType": "Fighting"
+  },
+  {
+    "Name": "Bellsprout",
+    "PokedexId": 69,
+    "ElementalType": "Grass"
+  },
+  {
+    "Name": "Weepinbell",
+    "PokedexId": 70,
+    "ElementalType": "Grass"
+  },
+  {
+    "Name": "Victreebel",
+    "PokedexId": 71,
+    "ElementalType": "Grass"
+  },
+  {
+    "Name": "Tentacool",
+    "PokedexId": 72,
+    "ElementalType": "Water"
+  },
+  {
+    "Name": "Tentacruel",
+    "PokedexId": 73,
+    "ElementalType": "Water"
+  },
+  {
+    "Name": "Geodude",
+    "PokedexId": 74,
+    "ElementalType": "Rock"
+  },
+  {
+    "Name": "Graveler",
+    "PokedexId": 75,
+    "ElementalType": "Rock"
+  },
+  {
+    "Name": "Golem",
+    "PokedexId": 76,
+    "ElementalType": "Rock"
+  },
+  {
+    "Name": "Ponyta",
+    "PokedexId": 77,
+    "ElementalType": "Fire"
+  },
+  {
+    "Name": "Rapidash",
+    "PokedexId": 78,
+    "ElementalType": "Fire"
+  },
+  {
+    "Name": "Slowpoke",
+    "PokedexId": 79,
+    "ElementalType": "Water"
+  },
+  {
+    "Name": "Slowbro",
+    "PokedexId": 80,
+    "ElementalType": "Water"
+  },
+  {
+    "Name": "Magnemite",
+    "PokedexId": 81,
+    "ElementalType": "Electric"
+  },
+  {
+    "Name": "Magneton",
+    "PokedexId": 82,
+    "ElementalType": "Electric"
+  },
+  {
+    "Name": "Farfetch'd",
+    "PokedexId": 83,
+    "ElementalType": "Normal"
+  },
+  {
+    "Name": "Doduo",
+    "PokedexId": 84,
+    "ElementalType": "Normal"
+  },
+  {
+    "Name": "Dodrio",
+    "PokedexId": 85,
+    "ElementalType": "Normal"
+  },
+  {
+    "Name": "Seel",
+    "PokedexId": 86,
+    "ElementalType": "Water"
+  },
+  {
+    "Name": "Dewgong",
+    "PokedexId": 87,
+    "ElementalType": "Water"
+  },
+  {
+    "Name": "Grimer",
+    "PokedexId": 88,
+    "ElementalType": "Poison"
+  },
+  {
+    "Name": "Muk",
+    "PokedexId": 89,
+    "ElementalType": "Poison"
+  },
+  {
+    "Name": "Shellder",
+    "PokedexId": 90,
+    "ElementalType": "Water"
+  },
+  {
+    "Name": "Cloyster",
+    "PokedexId": 91,
+    "ElementalType": "Water"
+  },
+  {
+    "Name": "Gastly",
+    "PokedexId": 92,
+    "ElementalType": "Ghost"
+  },
+  {
+    "Name": "Haunter",
+    "PokedexId": 93,
+    "ElementalType": "Ghost"
+  },
+  {
+    "Name": "Gengar",
+    "PokedexId": 94,
+    "ElementalType": "Ghost"
+  },
+  {
+    "Name": "Onix",
+    "PokedexId": 95,
+    "ElementalType": "Rock"
+  },
+  {
+    "Name": "Drowzee",
+    "PokedexId": 96,
+    "ElementalType": "Psychic"
+  },
+  {
+    "Name": "Hypno",
+    "PokedexId": 97,
+    "ElementalType": "Psychic"
+  }
+]
+ 
