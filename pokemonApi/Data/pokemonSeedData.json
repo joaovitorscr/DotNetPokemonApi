@@ -1,182 +1,35 @@
 [
   {
-    "Name": "Bulbasaur",
-    "PokedexId": 1,
-    "ElementalTypes": [ "Grass", "Poison" ]
+    "name": "Bulbasaur",
+    "pokedexId": 1,
+    "pokemonElements": [
+      {
+        "elementType": "Grass, Poison",
+        "weakness": "Fire, Ice, Flying, Psychic",
+        "strength": ""
+      }
+    ]
   },
   {
-    "Name": "Ivysaur",
-    "PokedexId": 2,
-    "ElementalTypes": [ "Grass", "Poison" ]
+    "name": "Charmander",
+    "pokedexId": 4,
+    "pokemonElements": [
+      {
+        "elementType": "Fire",
+        "weakness": "Water, Rock, Ground",
+        "strength": ""
+      }
+    ]
   },
   {
-    "Name": "Venusaur",
-    "PokedexId": 3,
-    "ElementalTypes": [ "Grass", "Poison" ]
-  },
-  {
-    "Name": "Charmander",
-    "PokedexId": 4,
-    "ElementalTypes": [ "Fire" ]
-  },
-  {
-    "Name": "Charmeleon",
-    "PokedexId": 5,
-    "ElementalTypes": [ "Fire" ]
-  },
-  {
-    "Name": "Charizard",
-    "PokedexId": 6,
-    "ElementalTypes": [ "Fire", "Flying" ]
-  },
-  {
-    "Name": "Squirtle",
-    "PokedexId": 7,
-    "ElementalTypes": [ "Water" ]
-  },
-  {
-    "Name": "Wartortle",
-    "PokedexId": 8,
-    "ElementalTypes": [ "Water" ]
-  },
-  {
-    "Name": "Blastoise",
-    "PokedexId": 9,
-    "ElementalTypes": [ "Water" ]
-  },
-  {
-    "Name": "Caterpie",
-    "PokedexId": 10,
-    "ElementalTypes": [ "Bug" ]
-  },
-  {
-    "Name": "Metapod",
-    "PokedexId": 11,
-    "ElementalTypes": [ "Bug" ]
-  },
-  {
-    "Name": "Butterfree",
-    "PokedexId": 12,
-    "ElementalTypes": [ "Bug", "Flying" ]
-  },
-  {
-    "Name": "Weedle",
-    "PokedexId": 13,
-    "ElementalTypes": [ "Bug", "Poison" ]
-  },
-  {
-    "Name": "Kakuna",
-    "PokedexId": 14,
-    "ElementalTypes": [ "Bug", "Poison" ]
-  },
-  {
-    "Name": "Beedrill",
-    "PokedexId": 15,
-    "ElementalTypes": [ "Bug", "Poison" ]
-  },
-  {
-    "Name": "Pidgey",
-    "PokedexId": 16,
-    "ElementalTypes": [ "Normal", "Flying" ]
-  },
-  {
-    "Name": "Pidgeotto",
-    "PokedexId": 17,
-    "ElementalTypes": [ "Normal", "Flying" ]
-  },
-  {
-    "Name": "Pidgeot",
-    "PokedexId": 18,
-    "ElementalTypes": [ "Normal", "Flying" ]
-  },
-  {
-    "Name": "Rattata",
-    "PokedexId": 19,
-    "ElementalTypes": [ "Normal" ]
-  },
-  {
-    "Name": "Raticate",
-    "PokedexId": 20,
-    "ElementalTypes": [ "Normal" ]
-  },
-  {
-    "Name": "Spearow",
-    "PokedexId": 21,
-    "ElementalTypes": [ "Normal", "Flying" ]
-  },
-  {
-    "Name": "Fearow",
-    "PokedexId": 22,
-    "ElementalTypes": [ "Normal", "Flying" ]
-  },
-  {
-    "Name": "Ekans",
-    "PokedexId": 23,
-    "ElementalTypes": [ "Poison" ]
-  },
-  {
-    "Name": "Arbok",
-    "PokedexId": 24,
-    "ElementalTypes": [ "Poison" ]
-  },
-  {
-    "Name": "Pikachu",
-    "PokedexId": 25,
-    "ElementalTypes": [ "Electric" ]
-  },
-  {
-    "Name": "Raichu",
-    "PokedexId": 26,
-    "ElementalTypes": [ "Electric" ]
-  },
-  {
-    "Name": "Sandshrew",
-    "PokedexId": 27,
-    "ElementalTypes": [ "Ground" ]
-  },
-  {
-    "Name": "Sandslash",
-    "PokedexId": 28,
-    "ElementalTypes": [ "Ground" ]
-  },
-  {
-    "Name": "Nidoran♀",
-    "PokedexId": 29,
-    "ElementalTypes": [ "Poison" ]
-  },
-  {
-    "Name": "Nidorina",
-    "PokedexId": 30,
-    "ElementalTypes": [ "Poison" ]
-  },
-  {
-    "Name": "Nidoqueen",
-    "PokedexId": 31,
-    "ElementalTypes": [ "Poison", "Ground" ]
-  },
-  {
-    "Name": "Nidoran♂",
-    "PokedexId": 32,
-    "ElementalTypes": [ "Poison" ]
-  },
-  {
-    "Name": "Nidorino",
-    "PokedexId": 33,
-    "ElementalTypes": [ "Poison" ]
-  },
-  {
-    "Name": "Nidoking",
-    "PokedexId": 34,
-    "ElementalTypes": [ "Poison", "Ground" ]
-  },
-  {
-    "Name": "Clefairy",
-    "PokedexId": 35,
-    "ElementalTypes": [ "Fairy" ]
-  },
-  {
-    "Name": "Clefable",
-    "PokedexId": 36,
-    "ElementalTypes": [ "Fairy" ]
+    "name": "Squirtle",
+    "pokedexId": 7,
+    "pokemonElements": [
+      {
+        "elementType": "Water",
+        "weakness": "Electric, Grass",
+        "strength": ""
+      }
+    ]
   }
 ]

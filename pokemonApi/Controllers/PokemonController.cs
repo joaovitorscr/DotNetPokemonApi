@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using pokemonApi.Dto;
 using pokemonApi.Models;
 using pokemonApi.Services;
 
@@ -17,11 +18,11 @@ namespace pokemonApi.Controllers
 
         // GET All /api/pokemon
         [HttpGet]
-        public ActionResult<List<Pokemon>> GetAll() => _pokemonService.GetAll();
+        public ActionResult<List<PokemonDto>> GetAll() => _pokemonService.GetAll();
 
         // Get by Id /api/pokemon/{id}
         [HttpGet("{id}")]
-        public ActionResult<Pokemon> Get(Guid id)
+        public ActionResult<PokemonDto> Get(Guid id)
         {
             var pokemon = _pokemonService.Get(id);
 
@@ -34,14 +35,14 @@ namespace pokemonApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Pokemon pokemon)
+        public IActionResult Create(PokemonDto pokemon)
         {
             _pokemonService.Add(pokemon);
             return CreatedAtAction(nameof(Get), new { id = pokemon.Id }, pokemon);
         }
 
         [HttpPut("{id}")]
-        public IActionResult Update(Guid id, Pokemon pokemon)
+        public IActionResult Update(Guid id, PokemonDto pokemon)
         {
             if (id != pokemon.Id)
             {
@@ -50,7 +51,7 @@ namespace pokemonApi.Controllers
 
             try
             {
-                _pokemonService.Update(pokemon);
+                _pokemonService.Update(id, pokemon);
                 return NoContent();
             }
             catch (KeyNotFoundException)

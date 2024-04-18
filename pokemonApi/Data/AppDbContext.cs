@@ -6,15 +6,18 @@ namespace pokemonApi.Data
 {
     public partial class AppDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options);
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(GetType().Assembly);
+            modelBuilder.Entity<PokemonElement>()
+               .HasOne(e => e.Pokemon)
+               .WithMany(p => p.PokemonElements)
+               .HasForeignKey(e => e.PokemonId);
         }
         public DbSet<Pokemon> Pokemons { get; set; }
         public DbSet<PokemonElement> PokemonElements { get; set; }
-
         public void SeedData()
         {
             if (!Pokemons.Any())

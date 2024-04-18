@@ -11,15 +11,13 @@ namespace pokemonApi.Config
             builder.ToTable("PokemonElements");
             builder.HasKey(p => p.Id);
 
-            builder.Property(p => p.Element).IsRequired().HasMaxLength(40);
+            builder.Property(p => p.ElementType).IsRequired();
             builder.Property(p => p.Strength).IsRequired();
             builder.Property(p => p.Weakness).IsRequired();
 
-
             builder.HasOne(p => p.Pokemon)
                 .WithMany(p => p.PokemonElements)
-                .HasForeignKey(p => p.Id)
-                .OnDelete(DeleteBehavior.Cascade);
+                .HasForeignKey(p => p.Id);
         }
     }
 }
